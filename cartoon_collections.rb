@@ -7,10 +7,8 @@ end
 def summon_captain_planet(array)# code an argument here
   # Your code here
   array.collect{|i|
-  array[i].split
-  array[0].upcase
-  array << "!"
-  array.join}
+  array[i][0].upcase
+  array[i] << "!"}
 end
 
 def long_planeteer_calls# code an argument here
